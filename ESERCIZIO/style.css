@@ -1,6 +1,6 @@
 body{
     margin: 0;
-    height: 30000px;
+    width: 100%;
 }
 nav{
     width: 100%;
@@ -36,6 +36,7 @@ nav img{
 
 main{
     display: flex;
+    width: 100%;
 }
 
 .sidebar-left, 
@@ -46,6 +47,7 @@ main{
 
 .main{
     width: 82%;
+    margin: 15px;
 }
 .main h1{
     text-align: center;
@@ -132,7 +134,7 @@ main{
 
 .ul .ul1{
     position: relative;
-    left: -80px;
+    left: -73px;
 }
 
 .ul .ul1 li{
@@ -145,9 +147,9 @@ main{
     font-weight: 900;
 }
 
-.ul+div .ul2{
+.ul .ul2{
     position: relative;
-    left: 80px;
+    left: -80px;
 }
 
 .ol{
@@ -177,7 +179,7 @@ main{
 
 footer p{
     position: relative;
-    left: -151px;
+    left: -139px;
 }
 
 footer p a{
@@ -185,8 +187,31 @@ footer p a{
 }
 
 
+.flex2{
+    flex-direction: column;
+    align-items: center;
+}
 
+#flex{
+    display: flex;
+    justify-content: center;
+}
 
+#position{
+    position: relative;
+    left: -31px;
+}
+
+#position h5{
+    font-size: 1em;
+    font-weight: 900;
+    position: relative;
+    left: -40px;
+}
+
+#position li{
+    padding-bottom:  10px;
+}
 
 
 
